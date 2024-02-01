@@ -1,4 +1,4 @@
-" 42 Stdheader settings
+" 42 Stdheader settings (only use with the plugin)
 
 let g:user42 = 'fporciel'
 let g:mail42 = 'fporciel@student.42roma.it'
