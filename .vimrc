@@ -1,4 +1,4 @@
-" 42 Stdheader settings (only use with the plugin)
+" 42 Stdheader settings
 
 let g:user42 = 'fporciel'
 let g:mail42 = 'fporciel@student.42roma.it'
@@ -34,4 +34,5 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
+let g:netrw_preview = 1
 autocmd VimEnter * :Lexplore
