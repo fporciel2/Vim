@@ -35,7 +35,6 @@ let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
 let g:netrw_preview = 1
-autocmd VimEnter * :Lexplore
 
 " 42-GPL Script
 
@@ -83,3 +82,6 @@ endfunction
 command! GPL call InsertGPL()
 
 nnoremap <F1> :Stdheader<CR>:GPL<CR>
+
+autocmd VimEnter * nnoremap <F1> :Stdheader<CR>:GPL<CR>
+autocmd VimEnter * :Lexplore
